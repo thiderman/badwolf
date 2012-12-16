@@ -179,7 +179,7 @@ endif
 
 call s:HL('Normal', 'plain', 'blackgravel')
 
-call s:HL('Folded', 'mediumgravel', 'bg', 'none')
+call s:HL('Folded', 'mediumgravel', 'blackestgravel')
 
 call s:HL('VertSplit', 'lightgravel', 'bg', 'none')
 
@@ -241,7 +241,7 @@ call s:HL('iCursor', 'coal', 'tardis', 'none')
 " Syntax highlighting {{{
 
 " Start with a simple base.
-call s:HL('Special', 'plain')
+call s:HL('Special', 'tardis')
 
 " Comments are slightly brighter than folds, to make 'headers' easier to see.
 call s:HL('Comment',        'gravel')
